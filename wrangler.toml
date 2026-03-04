@@ -1,0 +1,11 @@
+name = "ai-proxy-worker4"
+main = "src/index.js"
+compatibility_date = "2024-05-01"
+
+[vars]
+# استخدم نفس كلمة السر القوية التي اخترتها من قبل
+SECRET_KEY = "Ammarajajhvtas192005*"
+
+[[services]]
+binding = "AI_WORKER"
+service = "actual-ai-worker-ammar" # <-- تأكد من أن هذا هو اسم الـ Worker الصحيح
